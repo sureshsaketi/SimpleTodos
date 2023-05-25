@@ -1,0 +1,27 @@
+/* Write your CSS here */
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+button {
+  border: 2px solid #ff0b37;
+  width: 80px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #ff0b37;
+  margin-left: 15px;
+}
+p {
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 20px;
+  }
+}
